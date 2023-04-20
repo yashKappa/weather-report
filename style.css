@@ -9,10 +9,15 @@
 }
 
 body{
-    background: linear-gradient(100deg, #ec9d35, #ec3737);
+    background: linear-gradient(135deg, #ec9d35, #ec3737);
 }
 .card{
-    background: linear-gradient(360deg, blue, lightblue);
+    width:40%;
+    background: linear-gradient(135deg, #00feba, #5b548a);
+    color: #fff;
+    border-radius: 20px;
+    padding: 35px 40px;
+    text-align: center;
 }
 .search{
     width: 100%;
