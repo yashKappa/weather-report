@@ -93,13 +93,7 @@ body{
     display: none;
 }
 
-@media only screen and (max-width: 600px) {
-    body {
-      background-color: lightblue;
-    }
-    body{
-        background: linear-gradient(135deg, #ec9d35, #ec3737);
-    }
+@media only screen and (max-width: 780px) {
     .card{
         width:100%;
         background: linear-gradient(135deg, #0a2479, #391fe4);
