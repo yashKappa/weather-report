@@ -9,7 +9,7 @@
 }
 
 body{
-    background: linear-gradient(135deg, #ec9d35, #ec3737);
+    background: linear-gradient(135deg, #ec9d35, #000000);
 }
 .card{
     width:40%;
