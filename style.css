@@ -100,17 +100,6 @@ body{
         background: linear-gradient(135deg, #1b6db1, #080bee);
         color: #fff;
         border-radius: 20px;
-        padding-left: 1rem;
-        padding-right: 1rem;
-        text-align: center;
-    }
-  }
-  @media only screen and (max-width: 720px) {
-    .card{
-        width:100%;
-        background: linear-gradient(135deg, #1b6db1, #ee8a08);
-        color: #fff;
-        border-radius: 20px;
         text-align: center;
     }
   }
