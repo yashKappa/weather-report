@@ -100,6 +100,8 @@ body{
         background: linear-gradient(135deg, #1b6db1, #080bee);
         color: #fff;
         border-radius: 20px;
+        padding-left: 1rem;
+        padding-right: 1rem;
         text-align: center;
     }
   }
