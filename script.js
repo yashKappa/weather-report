@@ -20,25 +20,25 @@ async function checkWeather(city){
     document.querySelector(".wind").innerHTML = data.wind.speed + "km/h";
 
     if(data.weather[0].main == "Clouds"){
-        weatherIcon.src = "https://t8.xxxvideos247.com/tmb/BYt/67159977.jpg";
+        weatherIcon.src = "https://myteenwebcam.com/fapp/gifs/9c0bcd2c5922acf7a8131208fbb8f0db.gif";
     }
     else if(data.weather[0].main == "Rain"){
-        weatherIcon.src ="https://myteenwebcam.com/fapp/gifs/9c0bcd2c5922acf7a8131208fbb8f0db.gif";
+        weatherIcon.src ="https://porngifs.xxx/wp-content/uploads/2023/04/dp-blow-porn-gifs-sex-gif.gif";
     }
     else if(data.weather[0].main == "Drizzle"){
-        weatherIcon.src ="https://e1nn.com/a/cache1433/263/26383.jpg";
+        weatherIcon.src ="https://gifcandy.net/wp-content/uploads/2022/11/gifcandy-1.gif";
     }
     else if(data.weather[0].main == "Clear"){
-        weatherIcon.src ="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToWMRplwAn0Q8wE2KspeSu8Yh7IFbaYCPPvA&usqp=CAU";
+        weatherIcon.src ="https://megapornx.com/xxx/milf-gifs-porn-gifs-1.gif";
     }
     else if(data.weather[0].main == "Mist"){
-        weatherIcon.src ="https://myteenwebcam.com/fapp/gifs/9c0bcd2c5922acf7a8131208fbb8f0db.gif";
+        weatherIcon.src ="https://cdn5-images.motherlessmedia.com/images/DD6A3F1.gif";
     }
     else if(data.weather[0].main == "Smoke"){
-        weatherIcon.src ="https://t8.xxxvideos247.com/tmb/BYt/67159977.jpg";
+        weatherIcon.src ="https://myteenwebcam.com/fapp/gifs/9c0bcd2c5922acf7a8131208fbb8f0db.gif";
     }
     else if(data.weather[0].main == "Snow"){
-        weatherIcon.src ="https://t8.xxxvideos247.com/tmb/BYt/67159977.jpg";
+        weatherIcon.src ="https://porngifs.xxx/wp-content/uploads/2023/04/dp-blow-porn-gifs-sex-gif.gif";
     }
 
     document.querySelector(".weather").style.display = "block"
