@@ -23,19 +23,19 @@ async function checkWeather(city){
         weatherIcon.src = "https://images.app.goo.gl/wqJU1qcDqvpoxWSg7";
     }
     else if(data.weather[0].main == "Rain"){
-        weatherIcon.src ="rain.png";
+        weatherIcon.src ="https://images.app.goo.gl/wqJU1qcDqvpoxWSg7";
     }
     else if(data.weather[0].main == "Drizzle"){
-        weatherIcon.src ="drizzle.png";
+        weatherIcon.src ="https://images.app.goo.gl/wqJU1qcDqvpoxWSg7";
     }
     else if(data.weather[0].main == "Clear"){
-        weatherIcon.src ="clear.png";
+        weatherIcon.src ="https://images.app.goo.gl/wqJU1qcDqvpoxWSg7";
     }
     else if(data.weather[0].main == "Mist"){
-        weatherIcon.src ="mist.png";
+        weatherIcon.src ="https://images.app.goo.gl/wqJU1qcDqvpoxWSg7";
     }
     else if(data.weather[0].main == "Smoke"){
-        weatherIcon.src ="clear.png";
+        weatherIcon.src ="https://images.app.goo.gl/wqJU1qcDqvpoxWSg7";
     }
     else if(data.weather[0].main == "Snow"){
         weatherIcon.src ="snow.png";
