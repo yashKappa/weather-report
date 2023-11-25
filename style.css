@@ -1,6 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300&family=Ubuntu:wght@300;400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dongle&family=Mulish:wght@200&family=Nunito:wght@200&family=Rubik:wght@300&family=Zen+Kurenaido&display=swap');
 
+:root{
+    --body-color:linear-gradient(135deg, #ec9d35, #ec3737);
+    --cart-color:linear-gradient(135deg, #09d49e, #3985cc);
+    --border-color:rgb(255, 166, 0);
+    --font-color:black;
+
+}
+.dark-theme{
+    --body-color:linear-gradient(135deg, #1a1917, #242222);
+    --cart-color:linear-gradient(135deg, #292828, #474545, black);
+    --border-color: rgb(114, 112, 112);
+    --font-color:white;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -9,17 +23,18 @@
 }
 
 body{
-    background: linear-gradient(135deg, #ec9d35, #ec3737);
+    background: var(--body-color);
     height: 100vh;
 }
 .card{
     width:30%;
-    background: linear-gradient(135deg, #09d49e, #3985cc);
-    color: #000000;
+    background: var(--cart-color);
+    color: var(--font-color);
     margin: 1px auto 0;
     border-radius: 20px;
     padding: 35px 40px;
     text-align: center;
+    border: solid var(--border-color);
 }
 .search{
     width: 100%;
@@ -112,7 +127,11 @@ body{
     text-align: center;
     border-radius: 0.3rem;
 }
-
+#dark{
+    height: 7vh;
+    float: right;
+    margin-right: 1rem;
+}
 @media only screen and (max-width: 600px) {
     .card{
         width:90%;

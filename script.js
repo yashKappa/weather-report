@@ -49,3 +49,25 @@ searchBtn.addEventListener("click", ()=>{
     checkWeather(searchBox.value);
 })
 
+const darkModePreference = localStorage.getItem('darkMode');
+const dark = document.getElementById("dark");
+const loo = document.getElementById("loo");
+
+if (darkModePreference === 'enabled') {
+    document.body.classList.add('dark-theme');
+    dark.src = "https://ps.w.org/dark-mode-for-wp-dashboard/assets/icon-256x256.png?rev=2404672"; 
+} else {
+    dark.src = "https://static.thenounproject.com/png/4808961-200.png";
+}
+
+dark.onclick = function () {
+    document.body.classList.toggle("dark-theme");
+
+    if (document.body.classList.contains("dark-theme")) {
+        localStorage.setItem('darkMode', 'enabled');
+        dark.src = "https://ps.w.org/dark-mode-for-wp-dashboard/assets/icon-256x256.png?rev=2404672";
+    } else {
+        localStorage.setItem('darkMode', 'disabled');
+        dark.src = "https://static.thenounproject.com/png/4808961-200.png";
+    }
+}
