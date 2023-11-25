@@ -67,7 +67,7 @@ body{
 }
 .weather-icon{
     width: 170px;
-    margin-top: 30px;
+    margin-top: 15px;
 }
 .weather h1{
     font-size: 80px;
@@ -83,7 +83,7 @@ body{
     align-items: center;
     justify-content: space-between;
     padding: 0 20px;
-    margin-top: 50px;
+    margin-top: 25px;
 }
 .col{
     display: flex;
@@ -111,10 +111,14 @@ body{
 }
 .error{
     text-align:left;
-    margin-left: 80px;
+    width: 55%;
+    margin-left: 55px;
     font-size: 20px;
     margin-top: 10px;
     display: none;
+    background: linear-gradient(135deg, #1b6db1,rgb(207, 124, 124), #6163d8);
+    text-align: center;
+    border-radius: 0.3rem;
 }
 
 @media only screen and (max-width: 600px) {
