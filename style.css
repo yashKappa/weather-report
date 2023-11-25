@@ -10,11 +10,12 @@
 
 body{
     background: linear-gradient(135deg, #ec9d35, #ec3737);
+    height: 100vh;
 }
 .card{
     width:40%;
-    background: linear-gradient(135deg, #00feba, #5b548a);
-    color: #fff;
+    background: linear-gradient(135deg, #09d49e, #3985cc);
+    color: #000000;
     margin: 1px auto 0;
     border-radius: 20px;
     padding: 35px 40px;
@@ -31,9 +32,9 @@ body{
     outline: 0;
     background: #ebfffc;
     color: #555;
-    padding: 10px 25px;
-    height: 60px;
-    border-radius: 30px;
+    padding: 10px 20px;
+    height: 50px;
+    border-radius: 15px;
     flex: 1;
     margin-right: 16px;
     font-size: 18px;
@@ -42,9 +43,9 @@ body{
     border: 0;
     outline: 0;
     background: #ebfffc;
-    border-radius: 50%;
-    width: 60px;
-    height: 60px;
+    border-radius: 20%;
+    width: 50px;
+    height: 50px;
     cursor: pointer;
 }
 .search button img{
