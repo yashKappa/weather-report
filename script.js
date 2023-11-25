@@ -34,9 +34,6 @@ async function checkWeather(city){
     else if(data.weather[0].main == "Mist"){
         weatherIcon.src ="mist.png";
     }
-    else if(data.weather[0].main == "Smoke"){
-        weatherIcon.src ="https://e7.pngegg.com/pngimages/293/279/png-clipart-computer-icons-weather-forecasting-weather-and-climate-rain-rain-blue-cloud.png";
-    }
     else if(data.weather[0].main == "Snow"){
         weatherIcon.src ="snow.png";
     }
