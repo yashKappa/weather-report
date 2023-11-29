@@ -134,6 +134,7 @@ body{
 }
 @media only screen and (max-width: 600px) {
     .card{
+        margin-top: 5rem;
         width:90%;
         background: linear-gradient(135deg, #1b6db1, #080bee);
         color: #fff;
@@ -142,4 +143,8 @@ body{
         padding-right: 1rem;
         text-align: center;
     }
+     #dark{
+        width: 40px;
+        height: 6vh;
+     }
   }
