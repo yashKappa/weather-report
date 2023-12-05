@@ -137,7 +137,7 @@ body{
         margin-top: 5rem;
         width:90%;
         background: linear-gradient(135deg, #1b6db1, #080bee);
-        color: #fff;
+        color: var(--font-color);
         border-radius: 15px;
         padding-left: 1rem;
         padding-right: 1rem;
@@ -146,5 +146,8 @@ body{
      #dark{
         width: 40px;
         height: 6vh;
+     }
+     .temp{
+        font-size: small;
      }
   }
