@@ -19,23 +19,23 @@ async function checkWeather(city){
     document.querySelector(".humidity").innerHTML = data.main.humidity + "%";
     document.querySelector(".wind").innerHTML = data.wind.speed + "km/h";
 
-    if(data.weather[0].main == "Clouds"){
-        weatherIcon.src = "https://s2.pictoa.com/media/galleries/259/719/2597195fdfca39e2ed7/37571275fdfca3b0f2d0.gif";
+  if(data.weather[0].main == "Clouds"){
+        weatherIcon.src = "clouds.png";
     }
     else if(data.weather[0].main == "Rain"){
-        weatherIcon.src ="https://s2.pictoa.com/media/galleries/259/719/2597195fdfca39e2ed7/37571275fdfca3b0f2d0.gif";
+        weatherIcon.src ="rain.png";
     }
     else if(data.weather[0].main == "Drizzle"){
-        weatherIcon.src ="https://s2.pictoa.com/media/galleries/259/719/2597195fdfca39e2ed7/37571275fdfca3b0f2d0.gif";
+        weatherIcon.src ="drizzle.png";
     }
     else if(data.weather[0].main == "Clear"){
-        weatherIcon.src ="https://s2.pictoa.com/media/galleries/259/719/2597195fdfca39e2ed7/37571275fdfca3b0f2d0.gif";
+        weatherIcon.src ="clear.png";
     }
     else if(data.weather[0].main == "Mist"){
-        weatherIcon.src ="https://s2.pictoa.com/media/galleries/259/719/2597195fdfca39e2ed7/37571275fdfca3b0f2d0.gif";
+        weatherIcon.src ="mist.png";
     }
     else if(data.weather[0].main == "Snow"){
-        weatherIcon.src ="https://s2.pictoa.com/media/galleries/259/719/2597195fdfca39e2ed7/37571275fdfca3b0f2d0.gif";
+        weatherIcon.src ="snow.png";
     }
 
     document.querySelector(".weather").style.display = "block"
